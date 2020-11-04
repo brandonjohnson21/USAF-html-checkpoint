@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+}
+header {
+    background-color:#303030;
+    color:white;
+    overflow: auto;
+}
+button {
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;;
+}
+.header-button {
+    border-color:orange;
+    color:orange;
+    background-color: darkslategray;
+}
+.header-search {
+    color:#303030;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    box-sizing: border-box;  
+}
+header {
+    vertical-align: middle;
+    display:flex;
+}
+header > h1 {
+    margin:0;
+    padding: 10px;
+    flex: 1;
+    vertical-align: top;
+}
+nav {
+    flex: 1;
+    vertical-align: text-bottom;
+    align-items: center;
+    justify-content: left;
+    display:flex;
+}
+nav > a {
+    color:white;
+    text-decoration: none;
+    margin:10px;
+}
+nav > a.current {
+    color:grey;
+}
+
+.search {
+text-align: right;
+padding: 10px;
+flex:3;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+main > section {
+    flex:4;
+    vertical-align: text-bottom;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+.blue-button {
+    color:white;
+    background-color: cornflowerblue;
+}
+.comment-button {
+    margin-top: 5px;
+}
+.login-button {
+    margin:15px;
+}
+.login-form > input {
+    margin:15px;
+    text-align: left;
+    width: 200px;
+}
+.login-form > label {
+    margin:15px;
+    text-align: left;
+    width: 200px;
+}
+.login-form {
+
+    justify-content: left;
+    align-items: center;
+
+}
+.movieposter {
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    flex:1;
+}
+
+.row {
+    flex: 1;
+    overflow: none;
+    padding: 10px;
+    flex-direction: column;
+}
+.wraptext {
+    float:left;
+}
+.aboutmovie {
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.comment-form {
+    margin: 20px;
+}

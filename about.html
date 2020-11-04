@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMDB</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>GMDB</h1>
+        <nav>
+            <a href="main.html">Home</a>
+            <a href="index.html">Login</a>
+        </nav>
+        <form action="./search.html" method="GET" class="search"> 
+            <input type="text" id="searchText" name="searchText" class="header-search">
+            <button type="submit" class='header-button'>Search</button>
+        </form>
+    </header>
+    <main class="aboutmovie">
+        <div class='row'>
+            <img class="movieposter wraptext" src="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/3a06064f7078c897e0346f3d5c72db91_95a4b4e1-74f4-45e9-a8cf-8ab949729851_480x.progressive.jpg?v=1573591385" alt="curious george movie poster">
+            <h2 class='title'>Curious George</h2>
+            <h4 class='releaseinfo'>Released 2006</h4>
+            <span class='desc'>Thriller, Family, NeverHavingKids | Starring A Monkey</span>
+            <p>A Monkey terrorizes a concerned citizen for a while but eventually earns his trust until the next time.</p>
+        </div>
+        <div class='row'>
+            <form action="thanks.html" class='comment-form'>
+                <label for="comment">Leave a comment:</label><br>
+                <input type="text" id='comment'><br>
+                <button type="submit" class="blue-button comment-button">Submit</button>
+            </form>
+        </div>
+
+    </main>
+</body>
+</html>
